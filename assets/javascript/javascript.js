@@ -5,28 +5,52 @@ function currentDay() {
     $("#currentDay").text(currentTime.format("dddd, MMMM Do"));
 };
 
-// var saveButton = document.querySelector(".saveBtn");
 
-// saveButton.addEventListener('click', changeBackground);
+// all calender save functions
 
-//  var tester = saveButton.previousElementSibling;
+function changeBackground1() {
+    var element = document.querySelector("#calender1");
+    element.style.backgroundColor = "var(--saved)";
+};
 
-//  function changeBackground() {
-//      tester.style.backgroundColor = "green";
-//  }
+function changeBackground2() {
+    var element = document.querySelector("#calender2");
+    element.style.backgroundColor = "var(--saved)";
+};
 
-// var saveButton = document.querySelector(".saveBtn");
-// var calenderBG = document.querySelector(".calender");
+function changeBackground3() {
+    var element = document.querySelector("#calender3");
+    element.style.backgroundColor = "var(--saved)";
+};
 
-// var mode = "default";
+function changeBackground4() {
+    var element = document.querySelector("#calender4");
+    element.style.backgroundColor = "var(--saved)";
+};
 
-// saveButton.addEventListener('click', function() {
-//     if (mode === "default") {
-//         mode = "saved";
-//         calenderBG.setAttribute("class","saved");
-//     } else {
-//         mode = "default";
-//         calenderBG.setAttribute("class", "default");
-//     }
-// });
- 
+function changeBackground5() {
+    var element = document.querySelector("#calender5");
+    element.style.backgroundColor = "var(--saved)";
+};
+
+function changeBackground6() {
+    var element = document.querySelector("#calender6");
+    element.style.backgroundColor = "var(--saved)";
+};
+
+function changeBackground7() {
+    var element = document.querySelector("#calender7");
+    element.style.backgroundColor = "var(--saved)";
+};
+
+function changeBackground8() {
+    var element = document.querySelector("#calender8");
+    element.style.backgroundColor = "var(--saved)";
+};
+
+function changeBackground9() {
+    var element = document.querySelector("#calender9");
+    element.style.backgroundColor = "var(--saved)";
+};
+
+// END save functions
