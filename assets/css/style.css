@@ -82,7 +82,7 @@ textarea {
   display: flex;
 }
 
-.calender {
+.default {
   background-color: var(--default);
   border-top: 1px solid black;
   border-bottom: 1px solid black;
@@ -93,6 +93,9 @@ textarea {
   background-color: var(--editing);
 }
 
-/* [data-state="saved"] {
+.saved {
   background-color: var(--saved);
-} */
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+  overflow: hidden;
+}
