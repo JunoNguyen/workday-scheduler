@@ -5,10 +5,14 @@ function currentDay() {
     $("#currentDay").text(currentTime.format("dddd, MMMM Do"));
 };
 
-var saveBtn = document.querySelector("#saveBtn");
+var saveButton = document.querySelector(".saveBtn");
 
-saveBtn.addEventListener('click', saveProgress())
+saveButton.addEventListener('click', changeBackground);
 
-function saveProgress() {
+ var tester = saveButton.previousElementSibling;
 
-}
+ function changeBackground() {
+     tester.style.backgroundColor = "green";
+ }
+
+ 

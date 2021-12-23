@@ -92,3 +92,7 @@ textarea {
 .calender:focus {
   background-color: var(--editing);
 }
+
+/* [data-state="saved"] {
+  background-color: var(--saved);
+} */
