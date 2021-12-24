@@ -67,40 +67,61 @@ function changeBackground9() {
 // make calender background color change when unfocused
 
 function backgroundRed1() {
-    calender1.style.backgroundColor = "var(--unsaved)";
+    if (calender1.value != localStorage.getItem("Calender1")) {
+        calender1.style.backgroundColor = "var(--unsaved)";
+    }
 };
 
 function backgroundRed2() {
-    calender2.style.backgroundColor = "var(--unsaved)";
+    if (calender2.value != localStorage.getItem("Calender2")) {
+        calender2.style.backgroundColor = "var(--unsaved)";
+    }
 };
 
 function backgroundRed3() {
-    calender3.style.backgroundColor = "var(--unsaved)";
+    if (calender3.value != localStorage.getItem("Calender3")) {
+        calender3.style.backgroundColor = "var(--unsaved)";
+    }
 };
 
 function backgroundRed4() {
-    calender4.style.backgroundColor = "var(--unsaved)";
+    if (calender4.value != localStorage.getItem("Calender4")) {
+        calender4.style.backgroundColor = "var(--unsaved)";
+    }
 };
 
 function backgroundRed5() {
-    calender5.style.backgroundColor = "var(--unsaved)";
+    if (calender5.value != localStorage.getItem("Calender5")) {
+        calender5.style.backgroundColor = "var(--unsaved)";
+    }
 };
 
 function backgroundRed6() {
-    calender6.style.backgroundColor = "var(--unsaved)";
+    if (calender6.value != localStorage.getItem("Calender6")) {
+        calender6.style.backgroundColor = "var(--unsaved)";
+    } 
 };
 
 function backgroundRed7() {
-    calender7.style.backgroundColor = "var(--unsaved)";
+    if (calender7.value != localStorage.getItem("Calender7")) {
+        calender7.style.backgroundColor = "var(--unsaved)";
+    } 
 };
 
 function backgroundRed8() {
-    calender8.style.backgroundColor = "var(--unsaved)";
+    if (calender8.value != localStorage.getItem("Calender8")) {
+        calender8.style.backgroundColor = "var(--unsaved)";
+    } 
 };
 
 function backgroundRed9() {
-    calender9.style.backgroundColor = "var(--unsaved)";
+    if (calender9.value != localStorage.getItem("Calender9")) {
+        calender9.style.backgroundColor = "var(--unsaved)";
+    } 
 };
+
+
+
 
 // END background red when unsaved
 

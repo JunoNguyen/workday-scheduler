@@ -22,6 +22,8 @@ UNSAVED FUNCTION
 
 The unsaved function simply changes the color of the textarea to red when you do not save. This is to indicate to the user that the text within that specific hour textarea was not saved and will not be there when the website is refreshed.
 
+// I just added an if statement so the box does not turn red if you did not input text when you click on the textarea box.
+
 JAVASCRIPT LINES 109-113 
 
 These lines are what allows the site to maintain the text within the textarea when the page is refreshed. It uses a loop in order to have less code and be more efficient (I could not figure out how to loop the unsaved and save functions without breaking my code). What the code is doing is pulling data from the local storage, and inserting that data into their respective hour textarea. For example, when you type text into the 2PM block and click save, the text written within that 2PM text block will be logged into the user's local storage. When the page is reloaded, the script from lines 109-113 goes through each hour block, which is listed as calender1,calender2, etc., and sees if it has corresponding local storage data. 
