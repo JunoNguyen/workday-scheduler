@@ -18,47 +18,47 @@ var calender9 = document.querySelector("#calender9");
 
 // all calender save functions
 
-function changeBackground1() {
+function save1() {
     calender1.style.backgroundColor = "var(--saved)";
     localStorage.setItem("Calender1", calender1.value);
 };
 
-function changeBackground2() {
+function save2() {
     calender2.style.backgroundColor = "var(--saved)";
     localStorage.setItem("Calender2", calender2.value);
 };
 
-function changeBackground3() {
+function save3() {
     calender3.style.backgroundColor = "var(--saved)";
     localStorage.setItem("Calender3", calender3.value);
 };
 
-function changeBackground4() {
+function save4() {
     calender4.style.backgroundColor = "var(--saved)";
     localStorage.setItem("Calender4", calender4.value);
 };
 
-function changeBackground5() {
+function save5() {
     calender5.style.backgroundColor = "var(--saved)";
     localStorage.setItem("Calender5", calender5.value);
 };
 
-function changeBackground6() {
+function save6() {
     calender6.style.backgroundColor = "var(--saved)";
     localStorage.setItem("Calender6", calender6.value);
 };
 
-function changeBackground7() {
+function save7() {
     calender7.style.backgroundColor = "var(--saved)";
     localStorage.setItem("Calender7", calender7.value);
 };
 
-function changeBackground8() {
+function save8() {
     calender8.style.backgroundColor = "var(--saved)";
     localStorage.setItem("Calender8", calender8.value);
 };
 
-function changeBackground9() {
+function save9() {
     calender9.style.backgroundColor = "var(--saved)";
     localStorage.setItem("Calender9", calender9.value);
 };
